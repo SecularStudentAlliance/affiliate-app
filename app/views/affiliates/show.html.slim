@@ -1,0 +1,9 @@
+= link_to 'Back to affilates index', Affiliate
+
+h1= @affiliate.name
+
+= link_to 'Get em outta here!', affiliate_path(@affiliate), method: :delete
+
+div
+  ' twitter:
+  = @affiliate.twitter

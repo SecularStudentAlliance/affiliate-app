@@ -1,0 +1,4 @@
+h2 Our Affiliates
+= link_to "Create a New Group!", new_affiliate_path
+- @affiliates.each do |affiliate|
+  div= link_to affiliate.name, affiliate

@@ -1,0 +1,6 @@
+h1 Edit #{@affiliate.name}
+
+= form_for @affiliate do |f|
+  = f.text_field :name, placeholder: 'Name'
+  = f.text_field :twitter, placeholder: 'Twitter Username'
+  = f.submit
